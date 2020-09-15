@@ -3,6 +3,7 @@
         "Pokecard",
         "Pokedex",
         "Pokegame",
-        "fontawesome"
+        "fontawesome",
+        "nums"
     ]
 }

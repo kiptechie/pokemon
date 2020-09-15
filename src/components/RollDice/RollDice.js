@@ -30,7 +30,7 @@ class RollDice extends Component {
        });
        setTimeout(() => {
            this.setState({ rolling: false});
-       }, 1000);
+       }, 600);
    }
 
    genRandomNumber() {

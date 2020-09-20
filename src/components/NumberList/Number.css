@@ -1,0 +1,8 @@
+.NumberList {
+    text-align: start;
+    padding: 4px;
+}
+
+.NumberList button {
+   margin-left: 4px;
+}

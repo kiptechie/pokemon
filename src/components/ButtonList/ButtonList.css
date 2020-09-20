@@ -1,0 +1,14 @@
+.ButtonList {
+    padding: 10px;
+    margin: 12px;
+    border-radius: 4px;
+}
+
+.ButtonList button {
+    padding: 8px;
+    margin: 8px;
+    height: 32px;
+    width: 120px;
+    border-radius: 2px;
+    border: 0;
+}

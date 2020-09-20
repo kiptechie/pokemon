@@ -32,8 +32,8 @@ class Lottery extends Component {
             <section className='Lottery'>
                 <h1> {this.props.title} </h1>
                 <div> 
-                   {this.state.nums.map(n =>  (
-                   <Ball num={n}/>
+                   {this.state.nums.map((n, index) => (
+                   <Ball key={index} num={n}/>
                    ) )}
                 </div>
                 <button onClick={this.handleClick}>Generate</button>
